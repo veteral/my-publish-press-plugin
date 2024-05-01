@@ -1,0 +1,17 @@
+{
+    "name": "professional/my-publish-plugin",
+    "authors": [
+        {
+            "name": "veteral",
+            "email": "alexzpv@yandex.ru"
+        }
+    ],
+    "require": {
+        "pimple/pimple": "^3.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VPPP\\": "./"
+        }
+    }
+}
